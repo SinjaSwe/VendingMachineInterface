@@ -1,6 +1,6 @@
 ﻿namespace VendingMachineInterface
 {
-    interface IProduct
+    public interface IProduct
     {
         public string ProductName { get; }
         public string ProductCode { get; }

@@ -11,7 +11,6 @@ namespace VendingMachineInterface
 
         private List<IProduct> products = new List<IProduct>(); 
 
-
         int[] denonominations = { 1, 5, 10, 20, 50, 100, 500, 1000 };
 
         int moneyPoolPot = 0;
